@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+#logo {
+    height: 40px;
+    cursor: pointer;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+}
+nav li {
+    cursor: pointer;
+    padding: 5px 10px;
+}
+nav li:hover {
+    background-color: #66BB6A;
+}
+.active {
+    border-bottom: 3px solid #FFC107;
+}
+footer {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
